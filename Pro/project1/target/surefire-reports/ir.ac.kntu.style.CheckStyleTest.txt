@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: ir.ac.kntu.style.CheckStyleTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.314 s <<< FAILURE! - in ir.ac.kntu.style.CheckStyleTest
+testCheckStyleIndentation(ir.ac.kntu.style.CheckStyleTest)  Time elapsed: 1.069 s  <<< FAILURE!
+java.lang.AssertionError: 
+17 check style errors found. Starting audit...
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Main.java:8:5: Method main length is 141 lines (max allowed is 45). [MethodLength]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Main.java:27:13: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Main.java:171:18: Literal Strings should be compared using equals(), not '!='. [StringLiteralEquality]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Main.java:171:39: Literal Strings should be compared using equals(), not '!='. [StringLiteralEquality]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Main.java:182:18: Literal Strings should be compared using equals(), not '!='. [StringLiteralEquality]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Main.java:182:40: Literal Strings should be compared using equals(), not '!='. [StringLiteralEquality]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\MyArray.java:7:5: 'VARIABLE_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\MyArray.java:8:5: 'VARIABLE_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\MyArray.java:9:5: 'VARIABLE_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\MyArray.java:10:5: 'VARIABLE_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\MyArray.java:46:50: Must have at least one statement. [EmptyBlock]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\MyArray.java:55:5: 'VARIABLE_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\MyArray.java:82:9: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Patterns.java:5:5: 'VARIABLE_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Patterns.java:6:5: 'VARIABLE_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Patterns.java:7:5: 'VARIABLE_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] D:\Desktop\Pro\project1\src\main\java\ir\ac\kntu\Process.java:13:5: 'VARIABLE_DEF' should be separated from previous line. [EmptyLineSeparator]
+Audit done.
+
+	at ir.ac.kntu.style.CheckStyleTest.testCheckStyleIndentation(CheckStyleTest.java:104)
+
